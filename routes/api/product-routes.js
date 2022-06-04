@@ -19,16 +19,6 @@ router.get('/', (req, res) => {
         through: ProductTag,
         as: 'tagged_products'
       }
-      // {
-      //   model: Tag,
-      //   attributes: ['id', 'tag_name']
-      // },
-      // {
-      //   model: Tag,
-      //   attributes: ['title'],
-      //   through: ProductTag,
-      //   as: 'tagged_products'
-      // }
     ]
   })
     .then(dbProductData => res.json(dbProductData))
@@ -54,16 +44,6 @@ router.get('/:id', (req, res) => {
         through: ProductTag,
         as: 'tagged_products'
       }
-      // {
-      //   model: Tag,
-      //   attributes: ['id', 'tag_name']
-      // },
-      // {
-      //   model: Tag,
-      //   attributes: ['title'],
-      //   through: ProductTag,
-      //   as: 'tagged_products'
-      // }
     ]
   })
   .then(dbProductData => {
@@ -86,6 +66,7 @@ router.post('/', (req, res) => {
       product_name: "Basketball",
       price: 200.00,
       stock: 3,
+      category_id: 1,
       tagIds: [1, 2, 3, 4]
     }
   */

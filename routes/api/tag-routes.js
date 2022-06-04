@@ -14,16 +14,6 @@ router.get('/', (req, res) => {
         through: ProductTag,
         as: 'tagged_products'
       }
-      // {
-      //   model: Product,
-      //   attributes: ['id', 'product_name', 'price', 'stock', 'category_id']
-      // },
-      // {
-      //   model: Product,
-      //   attributes: ['title'],
-      //   through: ProductTag,
-      //   as: 'tagged_products'
-      // }
     ]
   })
     .then(dbTagData => res.json(dbTagData))
@@ -47,16 +37,6 @@ router.get('/:id', (req, res) => {
         through: ProductTag,
         as: 'tagged_products'
       }
-      // {
-      //   model: Product,
-      //   attributes: ['id', 'product_name', 'price', 'stock', 'category_id']
-      // },
-      // {
-      //   model: Product,
-      //   attributes: ['title'],
-      //   through: ProductTag,
-      //   as: 'tagged_products'
-      // }
     ]
   })
   .then(dbTagData => {
