@@ -21,6 +21,10 @@ Your challenge is to build the back end for an e-commerce site. You’ll take a 
 * WHEN I test API POST, PUT, and DELETE routes in Insomnia
 * THEN I am able to successfully create, update, and delete data in my database
 
+
+## Screenshot
+![Final screen shot of the e-commerce back end.](./assets/images/01-insomnia-screenshot.png)
+
 ## GitHub Location
 https://github.com/omarwright07/e-commerce
 
