@@ -25,3 +25,4 @@ Your challenge is to build the back end for an e-commerce site. You’ll take a 
 https://github.com/omarwright07/e-commerce
 
 ## Recording Location
+https://drive.google.com/file/d/1D8kyR-qjh131Z5izi3_g2hTDs8IOWKGl/view
